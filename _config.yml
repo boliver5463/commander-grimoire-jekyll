@@ -8,6 +8,6 @@ theme: jekyll-theme-cayman
 collections:
   posts:
     output: true
-    permalink: /posts/:path/
+    permalink: /posts/:title/
 
 remote_theme: pages-themes/cayman@v0.2.0

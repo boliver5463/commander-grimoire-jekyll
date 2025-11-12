@@ -1,5 +1,8 @@
 ---
-layout: default
+layout: home
+title: Commander Grimoire
+description: Where Legends Gather
+excerpt: Where Legends Gather
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

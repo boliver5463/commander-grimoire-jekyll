@@ -9,5 +9,6 @@ collections:
   posts:
     output: true
     permalink: /posts/:title/
+    # permalink: /:title/
 
 #remote_theme: pages-themes/cayman@v0.2.0

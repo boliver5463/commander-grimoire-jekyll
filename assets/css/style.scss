@@ -3,4 +3,16 @@
 
 @import 'jekyll-theme-cayman';
 @import 'menu';
+@import 'page-header';
 
+body {
+    background-color: #faf5f2;
+}
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

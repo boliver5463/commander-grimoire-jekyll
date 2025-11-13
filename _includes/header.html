@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <script src="{{ '/assets/css/global.js?v=' | append: site.github.build_revision | relative_url }}" defer></script>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="{{site.url}}{{ '/assets/css/global.js?v=' | append: site.github.build_revision | relative_url }}" defer></script>
+    <link rel="stylesheet" href="{{site.url}}{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
   </head>
   <body>
@@ -21,7 +21,7 @@
 
         <div class="site-logo-container">
           <a class="site-logo-link" href="/">
-            <img src="/assets/images/Header-Logo.png" alt="Commander Grimoire" class="site-logo">
+            <img src="{{site.url}}/assets/images/Header-Logo.png" alt="Commander Grimoire" class="site-logo">
           </a>
         </div>
 

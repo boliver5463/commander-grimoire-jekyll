@@ -7,7 +7,7 @@
             by {{ page.author }}
             {% endif %}
         </p>
-        <img src="{{page.image}}"/>
+        <img src="{{ page.image | relative_url }}"/>
     </header>
     {{ content }}
 {% include footer.html %}

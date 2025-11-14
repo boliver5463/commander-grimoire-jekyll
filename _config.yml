@@ -5,6 +5,7 @@ google_analytics:
 #theme: jekyll-theme-cayman
 
 # baseurl: "/commander-grimoire-jekyll"
+baseurl: ""
 
 collections:
   posts:

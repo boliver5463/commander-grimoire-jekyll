@@ -4,6 +4,12 @@ show_downloads: true
 google_analytics:
 #theme: jekyll-theme-cayman
 
+# Default development values
+baseurl: ""
+url: "http://localhost:4000"
+
+# Production overrides via command line
+jekyll_env: development
 
 collections:
   posts:

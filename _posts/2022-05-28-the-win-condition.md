@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Win Condition
+excerpt: You may build a deck, but did you ever think how you could win?
 author: brenton
 banner: /assets/images/posts/the-win-condition/Thrilling-Encore.webp
 ---

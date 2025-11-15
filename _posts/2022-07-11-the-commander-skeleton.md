@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Commander Skeleton
+excerpt: This starter guide will make building a commander deck easy!
 author: brenton
 banner: /assets/images/posts/the-commander-skeleton/Pithing-Needle.png
 ---

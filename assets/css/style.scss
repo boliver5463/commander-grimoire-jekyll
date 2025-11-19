@@ -109,6 +109,7 @@ nav {
     right: 0;
     z-index: 2;
     @media(min-width: 768px){
+        padding: 0;
         justify-content: flex-start;
     }
     & > .container {
@@ -128,13 +129,22 @@ nav {
         .search-container,
         .burger-container,
         .desktop-menu {
-            flex: 1;
+            @media(max-width: 767px){
+                flex: 1;
+            }
         }
         .site-logo-container {
-            flex: 2;
             display: flex;
             align-content: center;
             justify-content: center;
+            @media(max-width: 767px){
+                flex: 2;
+            }
+        }
+        .search-container {
+            @media(min-width: 768px){
+                order: 3;
+            }
         }
     }
 }
@@ -171,6 +181,9 @@ nav.nav-visible {
 
 /**** Desktop Menu ****/
 .desktop-menu {
+    @media(min-width: 768px){
+        margin-left: auto;
+    }
     .menu-container {
         ul {
             list-style: none;

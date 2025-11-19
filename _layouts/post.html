@@ -1,13 +1,10 @@
 {% include header.html %}
-    <header>
-        <h1>{{ page.title }}</h1>
-        <p class="post-meta">
-            Posted on {{ page.date | date: "%B %-d, %Y" }}
-            {% if page.author %}
-            by {{ page.author }}
-            {% endif %}
-        </p>
-        <img src="{{ page.image | relative_url }}"/>
-    </header>
+    {% assign author = site.authors | where: 'short_name', page.author | first %}
+    <p class="post-meta">
+        Posted on {{ page.date | date: "%B %-d, %Y" }}
+        {% if author %}
+            by <a href="{{ author.url }}">{{ author.name }}</a>
+        {% endif %}
+    </p>
     {{ content }}
 {% include footer.html %}

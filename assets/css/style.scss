@@ -27,6 +27,78 @@ h4 {
 }
 .main-content {
     padding: 1rem 0;
+    .post-meta {
+        text-align: center;
+    }
+    .post-content {
+        margin: 0 auto;
+        @media(min-width: 768px){
+            max-width: 650px;
+        }
+        p {
+            position: relative;
+            @media(max-width: 767px){ // Torn image look for mobile for post page content
+                &:has(img){
+                    &:before,
+                    &:after {
+                        content: "";
+                        display: block;
+                        height: 2rem;
+                        background-image: url('/assets/images/global/page-rip.png');
+                        background-position: bottom;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        position: absolute;
+                        width: 100vw;
+                        max-width: 100vw;
+                        left: 50%;
+                        right: 50%;
+                        margin-left: -50vw;
+                        margin-right: -50vw;
+                        pointer-events: none;
+                        z-index: 2;
+                        @media(max-width: 500px){
+                            height: 1rem;
+                        }
+                    }
+                    &:before {
+                        top: -1px;
+                        transform: rotate(180deg);
+                    }
+                    &:after {
+                        bottom: -1px;
+                    }
+                }
+            }
+        }
+        img {
+            position: relative;
+
+            @media(max-width: 767px){
+                width: 100vw;
+                max-width: 100vw;
+                left: 50%;
+                right: 50%;
+                margin-left: -50vw;
+                margin-right: -50vw;
+            }
+            @media(min-width: 768px){
+                width: 100%;
+                max-width: calc(100% + 50px);
+                left: -25px;
+            }
+        }
+    }
+}
+.site-footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+    a {
+        color: #ffffff;
+        text-decoration: underline;
+    }
 }
 
 
@@ -142,7 +214,7 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 2;
+    z-index: 3;
     @media(min-width: 768px){
         padding: 0;
         justify-content: flex-start;
@@ -192,7 +264,7 @@ nav, .navbar, .navigation {
     left: 0;
     width: 100%;
     transition: transform 0.3s ease, background 0.3s ease;
-    z-index: 2;
+    z-index: 3;
 }
 
 /* Optional: Different styles when in top section */

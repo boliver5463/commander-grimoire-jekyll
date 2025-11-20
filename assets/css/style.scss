@@ -80,7 +80,7 @@ h4 {
                 margin-right: -50vw;
             }
             @media(min-width: 768px){
-                width: 100%;
+                width: 100vw;
                 max-width: calc(100% + 50px);
                 left: -25px;
             }
@@ -111,6 +111,21 @@ h4 {
     justify-content: center;
     background-color: #000000;
     background-image: url('/assets/images/pages/home/home-masthead.png');
+    &:before {
+        content: "";
+        background-color: rgba(0,0,0,0.3);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        pointer-events: none;
+    }
+    h1,
+    h2 {
+        z-index: 1;
+    }
     svg.torn-paper-bottom {
         position: absolute;
         bottom: -1px;

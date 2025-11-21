@@ -350,7 +350,7 @@ nav.nav-visible {
     align-items: stretch;
     gap: 1rem;
     .post-card {
-        box-shadow: 2px 2px 5px #888;
+        box-shadow: 2px 2px 5px #00000050;
         border-radius: 8px;
         overflow: hidden;
         display: flex;
@@ -358,6 +358,7 @@ nav.nav-visible {
         width: 100%;
         text-decoration: none;
         max-width: 500px;
+        background-color: #faf5f3;
         @media(min-width: 768px){
             max-width: calc(50% - 0.5rem);
         }

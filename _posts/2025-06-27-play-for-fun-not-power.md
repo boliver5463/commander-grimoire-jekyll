@@ -3,7 +3,7 @@ layout: post
 title: Play For Fun (Not Power)
 excerpt: Many Magic the Gathering players forget that Commander is a game.
 author: brenton
-banner: /assets/images/posts/the-commander-skeleton/Pithing-Needle.png
+banner: /assets/images/posts/play-for-fun-not-power/flare-of-duplication.jpg
 ---
 
 > Power tends to corrupt, and absolute power corrupts absolutely.
@@ -19,11 +19,17 @@ When looking at upping your win rate, I've seen players start to gravitate towar
 
 CEDH is also known as Competitive Elder Dragon Highlander, known as competitive commander. It is not a format itself. It is just Commander with the mindset of building and playing a deck to win, playing it at the highest possible level. There are many CEDH commanders which are well known in the format.
 
+![Pile of CEDH Commanders]({{"assets/images/posts/play-for-fun-not-power/pile-of-cedh-commanders.png",  | relative_url }})
+
 I've seen players gravitate a lot of the time to these commanders since they have been tested and explored in depth by the community.
 
 This can be a wrong way at looking at getting better, as it creates an ever-feeding cycle. You can have a new player look at a popular CEDH deck and want to try it. This gives more popularity to that deck and makes it more relevant. Another player may see the growing popularity of the deck and want to try it themselves. Thus, the cycle repeats itself.
 
+![Kinnan example]({{"assets/images/posts/play-for-fun-not-power/kinnan-example.png",  | relative_url }})
+
 However there are some players who go against the grain and try they own unique commanders and strategies, sometimes getting seen and even popular enough to be recognised as a CEDH commander. Tivit, Seller of Secrets is one such commander.
+
+![Tivit, Seller of Secrets]({{"assets/images/posts/play-for-fun-not-power/tivit-seller-of-secrets.png",  | relative_url }})
 
 These unique strategies just don't come out of nowhere however. They take time to test and master.
 
@@ -32,7 +38,9 @@ A lot of new players give up on their decks too soon. Those who stick with them 
 
 There is a famous quote I like to reference about this topic:
 
-> It takes 10,000 hours to become an expert in anything.Flamehold Grappler (Illustrated by Wayne Wu)
+> It takes 10,000 hours to become an expert in anything.
+
+![Flamehold Grappler]({{"assets/images/posts/play-for-fun-not-power/flamehold-grappler.jpg",  | relative_url }})
 
 Now this is not realistic, but is absolutely true that practice and experience helps breed mastery.
 
@@ -42,11 +50,15 @@ I am more focused when versing a playing who knows the ins-and-outs of their dec
 
 There is another quote I like to reference when talking about this topic.
 
-> I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times.Deflecting Palm (Illustrated by Eric Deschamps)
+> I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times.
+
+![Deflecting Palm]({{"assets/images/posts/play-for-fun-not-power/deflecting-palm.jpg",  | relative_url }})
 
 The same goes for playing a commander deck. Mastering and focusing on one commander is more effective than trying to master many.
 
 One of my favourite decks in the past never was considered competitive. Selvala, Explorer Returned. It was a heavy elf-focused deck with the ability to constantly generate mana and force everyone to draw cards.
+
+![Selvala, Explorer Returned]({{"assets/images/posts/play-for-fun-not-power/selvala-explorer-returned.png",  | relative_url }})
 
 I found the strategy fun and unique. A common way to win with the deck was to focus every opponent to draw out from the commander's parley ability.
 
@@ -57,7 +69,9 @@ A few years later, I was checking out known CEDH commanders only to find out tha
 This is a good example that with enough time, effort, trial and error, you can truely make a deck's strategy work.
 
 ## It is a Game
-I cannot stress this enough. Commander is a game. I've seen players looking at taking the fun out of their deck in order to try and win. At that point, are you having fun anymore?Fact or Fiction (Illustrated by Mateus Manhanini)
+I cannot stress this enough. Commander is a game. I've seen players looking at taking the fun out of their deck in order to try and win. At that point, are you having fun anymore?
+
+![Fact or Fiction]({{"assets/images/posts/play-for-fun-not-power/fact-or-fiction.jpg",  | relative_url }})
 
 When I help people build their decks, I always ask what they find fun in the deck and push the deck to do more of that. If I was to just build the same generic deck for everyone, there would be no originality and a lot of players would get bored of the game.
 
@@ -66,7 +80,9 @@ I even warn players who are looking at CEDH decks that they may not find them fu
 ## Things to Consider
 There are a few things to note before looking at changing your commander/deck to a more powerful one.
 
-A lot players forget that in a typical 4 player game of commander, you only have a 25% chance of winning that game. Even veteran players forget this from time to time. Your strategies and politics help with your win rate, but you always start with a 25% chance to win a typical game of commander that you sit down to. A win rate above 25% is considered good.Enhanced Awareness (Illustrated by Ryan Alexander Lee)
+A lot players forget that in a typical 4 player game of commander, you only have a 25% chance of winning that game. Even veteran players forget this from time to time. Your strategies and politics help with your win rate, but you always start with a 25% chance to win a typical game of commander that you sit down to. A win rate above 25% is considered good.
+
+![Enhanced Awareness]({{"assets/images/posts/play-for-fun-not-power/enhanced-awareness.jpg",  | relative_url }})
 
 You should consider if you know the ins-and-outs of your deck. Such things include: 
 - Knowing how to properly mulligan to get a good starting hand for your deck, 
@@ -74,4 +90,7 @@ You should consider if you know the ins-and-outs of your deck. Such things inclu
 - Knowing your deck's strengths & weaknesses.
 
 A player is who knows their deck to this level of degree is way stronger than a player just playing a well known powerful strategy. 
+
 The final point I'd like to make is that there is no point playing a commander you don't enjoy. Commander is a game and a casual format after all.
+
+![Rhystic Study]({{"assets/images/posts/play-for-fun-not-power/rhystic-study.jpg",  | relative_url }})

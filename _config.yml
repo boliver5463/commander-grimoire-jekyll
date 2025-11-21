@@ -7,6 +7,8 @@ google_analytics:
 # baseurl: "/commander-grimoire-jekyll"
 baseurl: ""
 
+permalink: /:categories/:title/
+
 collections:
   posts:
     output: true

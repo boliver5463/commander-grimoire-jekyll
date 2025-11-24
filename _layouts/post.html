@@ -1,5 +1,35 @@
 {% include header.html %}
     {% assign author = site.authors | where: 'short_name', page.author | first %}
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "{{ post.url | relative_url}}"
+            },
+            "headline": "{{ page.title }}",
+            "description": "{{ page.excerpt | strip_html | strip_newlines | escape }}",
+            "image": "{{ page.banner | default: site.header_image | relative_url }}",
+            "author": {
+                "@type": "Person",
+                "name": "{{ author.name }}",
+                "url": "{{ author.url }}" // Optional
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "{{ site.title }}",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "{{ '/assets/images/global/Header-Logo.png' | relative_url }}"
+                }
+            },
+            "datePublished": "{{ page.date | date_to_xmlschema }}",
+            "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}"
+        }
+    </script>
+
     <p class="post-meta">
         Posted on {{ page.date | date: "%B %-d, %Y" }}
         {% if author %}

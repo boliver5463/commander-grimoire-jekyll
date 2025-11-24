@@ -450,3 +450,37 @@ nav.nav-visible {
         }
     }
 }
+
+/*** Staff Listing Page ***/
+.staff-card {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    max-width: 400px;
+    &:hover {
+        text-decoration: none;
+    }
+    .staff-image {
+        max-width: 100px;
+        max-height: 100px;
+        border-radius: 100%;
+        overflow: hidden;
+    }
+    .staff-info {
+        .staff-name {
+            font-size: 16px;
+            color: #000000;
+            font-weight: bold;
+        }
+        .staff-position {
+            color: #000000;
+            font-size: 16px;
+            font-style: italic;
+            // font-weight: bold;
+        }
+        .staff-bio {
+            font-size: 14px;
+            color: #888888;
+        }
+    }
+}

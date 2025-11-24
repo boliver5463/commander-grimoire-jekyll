@@ -12,7 +12,7 @@ permalink: /:categories/:title/
 collections:
   posts:
     output: true
-    permalink: /posts/:title/
+    permalink: /articles/:title/
     # permalink: /:title/
   authors:
     output: true

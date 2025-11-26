@@ -12,7 +12,7 @@
 
 <!-- Open Graph Tags -->
 <meta property="og:title" content="{% if page.title and page.layout != 'home' %}{{ page.title }} | {% endif %}Commander Grimoire" />
-<meta property="og:image" content="{{ page.image | default: site.header_image | relative_url }}" />
+<meta property="og:image" content="{{ page.image | default: site.header_image | absolute_url }}" />
 <meta property="og:description" content="{{ page.excerpt | default: page.description | default: site.description }}" />
 <meta property="og:url" content="{{ page.url | absolute_url }}" />
 <meta property="og:type" content="site" />
@@ -20,7 +20,7 @@
 <!-- Twitter Card Tags -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{% if page.title and page.layout != 'home' %}{{ page.title }} | {% endif %}Commander Grimoire" />
-<meta name="twitter:image" content="{{ page.image | default: site.header_image | relative_url }}" />
+<meta name="twitter:image" content="{{ page.image | default: site.header_image | absolute_url }}" />
 <meta name="twitter:description" content="{{ page.excerpt | default: page.description | default: site.description }}" />
 
 <!-- end custom head snippets -->

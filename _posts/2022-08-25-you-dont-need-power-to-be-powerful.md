@@ -3,7 +3,7 @@ layout: post
 title: You Don't Need Power to be Powerful
 excerpt: A lot of players get discouraged for not having access to rare and powerful cards, but the truth is you don't need them to be powerful.
 author: brenton
-banner: /assets/images/posts/2022-08-25-you-dont-need-power-to-be-powerful/fraying-omnipotence.webp
+image: /assets/images/posts/2022-08-25-you-dont-need-power-to-be-powerful/fraying-omnipotence.webp
 ---
 
 Power. It's one thing that commander players both want and fear. There are specific cards that the commander community believe are extremely powerful and there is nothing better.

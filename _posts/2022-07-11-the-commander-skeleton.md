@@ -3,7 +3,7 @@ layout: post
 title: The Commander Skeleton
 excerpt: This starter guide will make building a commander deck easy!
 author: brenton
-banner: /assets/images/posts/2022-07-11-the-commander-skeleton/Pithing-Needle.png
+image: /assets/images/posts/2022-07-11-the-commander-skeleton/Pithing-Needle.png
 ---
 
 Commander is one of, if not, the most fun way to play Magic the Gathering these days. Although it can be very daunting for a player to build a commander deck.Many players trying to break into the format have trouble building their own decks, getting flustered and stressed when going through the process. There is no simple strategy online on how to build a functioning Commander deck, until now. For years, I’ve been working on a commander skeleton that players can start with as a playable deck. This skeleton follows a simple rule:

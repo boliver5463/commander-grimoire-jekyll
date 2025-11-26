@@ -3,7 +3,7 @@ layout: post
 title: Remove Useless Power
 excerpt: Not every deck needs power.
 author: brenton
-banner: /assets/images/posts/2023-05-06-remove-useless-power/apex-of-power.webp
+image: /assets/images/posts/2023-05-06-remove-useless-power/apex-of-power.webp
 ---
 
 Force of Will, Deflecting Swat, Mox Opal, Cavern of Souls. These are just a few of the most potent and sought after staple cards for Commander.What do these all have in common with the exception of price and popularity? Give up?

@@ -3,7 +3,7 @@ layout: post
 title: Refining Your Deck
 excerpt: Are you refining your deck properly? Follow these steps to help improve your strategy.
 author: brenton
-banner: /assets/images/posts/2022-08-05-refining-your-deck/blacksmiths-skill.webp
+image: /assets/images/posts/2022-08-05-refining-your-deck/blacksmiths-skill.webp
 ---
 
 When tuning your commander deck, you may notice that sometimes your deck seems to not function correctly or some cards don't work with others. This is a common pitfall when it comes to deck building and tuning.

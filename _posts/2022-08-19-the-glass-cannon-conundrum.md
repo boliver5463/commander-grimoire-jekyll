@@ -3,7 +3,7 @@ layout: post
 title: The Glass Cannon Conundrum
 excerpt: Understanding the pros and cons of Glass Cannon commander decks.
 author: brenton
-banner: /assets/images/posts/2022-08-19-the-glass-cannon-conundrum/fracture.webp
+image: /assets/images/posts/2022-08-19-the-glass-cannon-conundrum/fracture.webp
 ---
 
 Everyone enjoys playing EDH in their own way, usually building around their commander. Some players love refine their deck to the point where they build for speed over stability. This can be either a massive boon or bane. This is the 'Glass Cannon Conundrum'.

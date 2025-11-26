@@ -3,7 +3,7 @@ layout: post
 title: Play For Fun (Not Power)
 excerpt: Many Magic the Gathering players forget that Commander is a game.
 author: brenton
-banner: /assets/images/posts/2025-06-27-play-for-fun-not-power/flare-of-duplication.jpg
+image: /assets/images/posts/2025-06-27-play-for-fun-not-power/flare-of-duplication.jpg
 ---
 
 > Power tends to corrupt, and absolute power corrupts absolutely.

@@ -3,7 +3,7 @@ layout: post
 title: The Win Condition
 excerpt: You may build a deck, but did you ever think how you could win?
 author: brenton
-banner: /assets/images/posts/2022-05-28-the-win-condition/Thrilling-Encore.webp
+image: /assets/images/posts/2022-05-28-the-win-condition/Thrilling-Encore.webp
 ---
 
 A lot of players I’ve met who have been playing commander for under 6 months tell me they struggle winning their games or even getting their deck working the way they want. I’ve noticed the issue time and time again, when I get a weird look from them when I ask them, “What is your win condition?”.

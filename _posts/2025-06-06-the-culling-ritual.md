@@ -3,7 +3,7 @@ layout: post
 title: The Culling Ritual
 excerpt: Ever been building or editing a deck and can't decide what to take out?
 author: brenton
-banner: /assets/images/posts/2025-06-06-the-culling-ritual/culling-ritual.jpg
+image: /assets/images/posts/2025-06-06-the-culling-ritual/culling-ritual.jpg
 ---
 
 When building or updating a deck, have you ever had difficulty finding what to cut to fit within the deck limit? It can sometimes be just so overwhelming.

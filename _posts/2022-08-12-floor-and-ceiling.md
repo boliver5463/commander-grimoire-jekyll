@@ -3,7 +3,7 @@ layout: post
 title: Floor and Ceiling
 excerpt: You ever wondered how to evaluate a Magic card?
 author: brenton
-banner: /assets/images/posts/2022-08-12-floor-and-ceiling/voracious-reader.webp
+image: /assets/images/posts/2022-08-12-floor-and-ceiling/voracious-reader.webp
 ---
 
 Many commander players find a card they think is powerful and could be fun in their decks. Most times, they usually find that the card doesn't live up to their expectations. This is a common problem among casuals, having trouble evaluating a card.This article will be talking about an advanced technique to help you evaluate cards: Floor & Ceiling.

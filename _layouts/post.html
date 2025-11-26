@@ -11,7 +11,7 @@
             },
             "headline": "{{ page.title }}",
             "description": "{{ page.excerpt | strip_html | strip_newlines | escape }}",
-            "image": "{{ page.banner | default: site.header_image | relative_url }}",
+            "image": "{{ page.image | default: site.header_image | relative_url }}",
             "author": {
                 "@type": "Person",
                 "name": "{{ author.name }}",

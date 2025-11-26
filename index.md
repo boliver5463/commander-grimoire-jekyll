@@ -3,7 +3,7 @@ layout: home
 title: Commander Grimoire
 description: Where Legends Gather
 excerpt: Where Legends Gather
-banner: /assets/images/pages/home/home-masthead.png
+image: /assets/images/pages/home/home-masthead.png
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

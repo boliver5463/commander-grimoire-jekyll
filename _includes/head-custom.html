@@ -10,15 +10,20 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap" rel="stylesheet">
 
+<title>{% if page.title and page.layout != "home" %}{{ page.title }} | {% endif %}Commander Grimoire</title>
+<meta name="description" content="{{ page.excerpt | default: page.description | default: site.description }}">
+
 <!-- Open Graph Tags -->
 <meta property="og:title" content="{% if page.title and page.layout != 'home' %}{{ page.title }} | {% endif %}Commander Grimoire" />
 <meta property="og:image" content="{{ page.image | default: site.header_image | absolute_url }}" />
 <meta property="og:description" content="{{ page.excerpt | default: page.description | default: site.description }}" />
 <meta property="og:url" content="{{ page.url | absolute_url }}" />
-<meta property="og:type" content="site" />
+<meta property="og:type" content="website" />
 
 <!-- Twitter Card Tags -->
 <meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:domain" content="{{ site.url }}">
+<meta property="twitter:url" content="{{ page.url | absolute_url }}">
 <meta name="twitter:title" content="{% if page.title and page.layout != 'home' %}{{ page.title }} | {% endif %}Commander Grimoire" />
 <meta name="twitter:image" content="{{ page.image | default: site.header_image | absolute_url }}" />
 <meta name="twitter:description" content="{{ page.excerpt | default: page.description | default: site.description }}" />

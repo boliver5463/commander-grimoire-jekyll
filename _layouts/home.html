@@ -1,5 +1,14 @@
 
 {% include header.html %}
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "WebSite",
+      "name": "{{ site.title }}",
+      "url": "{{ site.url }}"
+    }
+  </script>
   
   {{ content }}
 

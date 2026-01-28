@@ -9,6 +9,10 @@ baseurl: ""
 
 permalink: /:categories/:title/
 
+socials:
+  youtube: https://www.youtube.com/@CommanderGrimoire
+  podcast: https://open.spotify.com/show/4tubTbkqtKHtbd9sy4Esm1?si=41b3a70318a44ca0
+
 collections:
   posts:
     output: true

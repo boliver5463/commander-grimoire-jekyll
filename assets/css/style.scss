@@ -1,11 +1,11 @@
 ---
 ---
 
-@use 'jekyll-theme-cayman';
-@use 'top-navigation';
-@use 'decks';
-@use 'page-header';
-@use 'post-listing';
+@use './jekyll-theme-cayman';
+@use './top-navigation';
+@use './decks';
+@use './page-header';
+@use './post-listing';
 
 body {
     background-color: #faf5f2;

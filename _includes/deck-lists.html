@@ -1,0 +1,41 @@
+<section class="deck-lists">
+    {% for deck in site.decks %}
+        <div class="deck">
+            <details>
+                <summary>
+                    <div class="commander-heading">
+                        <div class="commander-profile-cover">
+                            <img src="{{ deck.image }}"/>
+                            <img src="{{ deck.image_cutout }}"/>
+                        </div>
+                        <div class="commander-name">{{ deck.title }}</div>
+                    </div>
+                </summary>
+                <div class="commander-description">
+                    {{ deck.content | markdownify }}
+                </div>
+            </details>
+        </div>
+    {% endfor %}
+</section>
+
+<!--
+<style>
+.img-cover {
+    position: relative;
+}
+.img-cover img {
+    z-index: 0;
+}
+.img-cover img + img {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 200ms ease;
+}
+.img-cover img + img:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+</style>
+-->

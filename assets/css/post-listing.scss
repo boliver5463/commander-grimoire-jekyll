@@ -1,0 +1,81 @@
+.posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-items: stretch;
+    gap: 1rem;
+    .post-card {
+        box-shadow: 2px 2px 5px #00000050;
+        border-radius: 8px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-decoration: none;
+        max-width: 500px;
+        background-color: #faf5f3;
+        @media(min-width: 768px){
+            max-width: calc(50% - 0.5rem);
+        }
+        @media(min-width: 768px){
+            max-width: calc(33.33% - 1rem);
+        }
+        .post-image {
+            position: relative;
+            width: 100%;
+            padding-bottom: 75%;
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+            &:after {
+                content: "";
+                display: block;
+                height: 2rem;
+                background-image: url('/assets/images/global/page-rip.png');
+                background-position: bottom;
+                background-size: contain;
+                background-repeat: no-repeat;
+                position: absolute;
+                width: 100%;
+                left: 0;
+                right: 0;
+                bottom: -1px;
+                pointer-events: none;
+                z-index: 2;
+            }
+        }
+        .post-info {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            gap: 8px;
+            padding: 0 0.5rem 0.5rem 0.5rem;
+            position: relative;
+            .post-title {
+                font-size: 16px;
+                font-weight: 700;
+                color: #000000;
+            }
+            .post-excerpt {
+                margin: 0;
+                font-size: 14px;
+                color: #333333;
+            }
+            .post-date {
+                text-align: right;
+                font-size: 12px;
+                color: #aaaaaa;
+                margin-top: auto;
+            }
+        }
+    }
+}

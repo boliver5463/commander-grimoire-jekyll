@@ -1,0 +1,38 @@
+.commander-heading {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    &:hover {
+        .commander-profile-cover {
+            img {
+                & + img {
+                    background-color: rgba(0,0,0,0.5);
+                }
+            }
+        }
+    }
+    .commander-profile-cover {
+        position: relative;
+        max-width: 150px;
+        max-width: 100px;
+        overflow: hidden;
+        height: fit-content;
+        display: flex;
+        border-radius: 4px;
+        img {
+            z-index: 0;
+            & + img {
+                // opacity: 0;
+                position: absolute;
+                inset: 0;
+                z-index: 1;
+                background-color: rgba(0,0,0,0);
+                transition: background-color 200ms ease;
+                &:hover {
+                    background-color: rgba(0,0,0,0.5);
+                }
+            }
+        }
+    }
+}

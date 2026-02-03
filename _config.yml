@@ -17,9 +17,11 @@ collections:
   posts:
     output: true
     permalink: /articles/:title/
-    # permalink: /:title/
   authors:
     output: true
     permalink: /staff/:name/
+  decks:
+    output: true
+    permalink: /decks/:title/
 
 #remote_theme: pages-themes/cayman@v0.2.0

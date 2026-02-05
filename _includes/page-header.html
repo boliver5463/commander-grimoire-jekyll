@@ -1,4 +1,5 @@
-<header class="page-header" role="banner" style="background-image: url('{{ page.image | default: site.header_image | relative_url }}');">
+<header class="page-header" role="banner">
+    <img src="{{ page.image | default: site.header_image | relative_url }}" fetchpriority="high" loading="eager" />
     <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
     <h2 class="project-tagline">{{ page.excerpt | default: page.description | default: site.description }}</h2>
     <!-- 

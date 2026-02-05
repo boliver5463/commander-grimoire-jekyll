@@ -134,10 +134,19 @@ details {
     align-items: center;
     justify-content: center;
     background-color: #000000;
-    background-image: url('/assets/images/pages/home/home-masthead.png');
     min-height: 500px;
     @media(min-width: 768px){
         min-height: 700px;
+    }
+    img {
+        position: absolute;
+        object-fit: cover;
+        object-position: center;
+        width: 100vw;
+        height: 500px;
+        @media(min-width: 768px){
+            height: 700px;
+        }
     }
     &:before {
         content: "";

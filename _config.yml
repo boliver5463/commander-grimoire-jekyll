@@ -24,4 +24,15 @@ collections:
     output: true
     permalink: /decks/:title/
 
+responsive_image:
+  template: _includes/responsive-image.html
+  sizes:
+    - width: 320
+    - width: 480
+    - width: 800
+
+gems:
+  - jekyll-srcset
+  - jekyll-responsive-image
+
 #remote_theme: pages-themes/cayman@v0.2.0

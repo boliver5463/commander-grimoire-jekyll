@@ -75,14 +75,14 @@ class NavigationHideReveal {
     }
     
     hideNavigation() {
-        this.nav.style.transform = 'translateY(-100%)';
-        this.nav.classList.add('nav-hidden');
-        this.nav.classList.remove('nav-visible');
+        // this.nav.style.transform = 'translateY(-100%)';
+        // this.nav.classList.add('nav-hidden');
+        // this.nav.classList.remove('nav-visible');
         this.hidden = true;
     }
     
     revealNavigation() {
-        this.nav.style.transform = 'translateY(0)';
+        // this.nav.style.transform = 'translateY(0)';
         this.nav.classList.add('nav-visible');
         this.nav.classList.remove('nav-hidden');
         this.hidden = false;

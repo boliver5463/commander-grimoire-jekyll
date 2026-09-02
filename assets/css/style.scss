@@ -75,11 +75,10 @@ details {
                         background-repeat: no-repeat;
                         position: absolute;
                         width: 100vw;
-                        max-width: 100vw;
-                        left: 50%;
-                        right: 50%;
-                        margin-left: -50vw;
-                        margin-right: -50vw;
+                        margin: 0 auto;
+                        max-width: calc(100% + 50px);
+                        left: -25px;
+                        right: -25px;
                         pointer-events: none;
                         z-index: 2;
                         @media(min-width: 768px){
@@ -170,12 +169,12 @@ details {
     }
     svg.torn-paper-bottom {
         position: absolute;
-        bottom: -1px;
-        left: 0;
-        right: 0;
-        z-index: 1;
-        width: 100%;
         height: auto;
+        left: -1px;
+        right: -1px;
+        bottom: -1px;
+        z-index: 1;
+        width: calc(100% + 2px);
     }
 }
 

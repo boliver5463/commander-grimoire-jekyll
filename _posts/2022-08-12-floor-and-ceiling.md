@@ -50,7 +50,7 @@ As you can see, even though the Ceiling is easy to fulfil, a lot is still needed
 
 #### Floor:
 - Can block and attack
-- 
+
 #### Ceiling:
 - Can generate large amounts of mana to abuse
 
